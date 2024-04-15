@@ -9,6 +9,7 @@ uint32_t var3;
 
 int main()
 {
+    //storing a 2 diffrent integer in a 16 bit array
     arr[20] = 1100;
     arr[19] = 10;
 
@@ -28,9 +29,11 @@ int main()
         temp /= 10;
     }
 
+    //simple multiplys the number count at 10 - 100 - 1000 - 10000 so on
     // Calculate the multiplier to shift var
     int multiplier = pow(10, num_digits_var1);
 
+    //simply adding the last byte integers with multiplied number
     // Combine var and var1 into var3
     var3 = add_bln_dig * multiplier + add_last4_dig;
 
