@@ -9,8 +9,7 @@ int main()
     scanf("%d",&pyramid);
     int space = pyramid;
     
-    //prints the pyramid shaped starts depemce of size user given
-    
+    //prints the pyramid shape depence on the size the user entered
     for(int j = 0;j<pyramid;j++) //loop fro row
     {
         for(int i = 1;i<space;i++) //loop for scape
